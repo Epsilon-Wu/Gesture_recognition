@@ -24,26 +24,7 @@ void Key_Init(void)
     GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
 
-//uint8_t Key_GetNum(void)
-//{
-//	uint8_t KeyNum = 0;
-//	if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_1) == 0)
-//	{
-//		Delay_ms(20);
-//		while (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_1) == 0);
-//		Delay_ms(20);
-//		KeyNum = 1;
-//	}
-//	if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11) == 0)
-//	{
-//		Delay_ms(20);
-//		while (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11) == 0);
-//		Delay_ms(20);
-//		KeyNum = 2;
-//	}
-//
-//	return KeyNum;
-//}
+
 void Flag_Reverse(void)
 {
     if (Guang_biao_switch_key_press)
