@@ -1,4 +1,5 @@
 引脚定义：
+
 KEY PIN define:
 PA12: Guang_biao_switch_key
 PA15: Confirm_key ；
